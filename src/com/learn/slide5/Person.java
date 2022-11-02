@@ -54,11 +54,6 @@ public class Person {
     }
 
     @Override
-    public int hashCode() {
-        return identityNumber.hashCode() * firstName.hashCode() * lastName.hashCode();
-    }
-
-    @Override
     public String toString(){
         return identityNumber + "  " + firstName + "  " + lastName;
     }
